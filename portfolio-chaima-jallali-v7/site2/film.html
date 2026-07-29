@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Film Projects, Chaima Jallali</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Mono:wght@400;700&family=Work+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+<nav class="topnav">
+  <a class="brand" href="index.html">CHAIMA JALLALI</a>
+  <ul><li><a class="navlink" href="index.html#about">About</a></li><li><a class="navlink active" href="film.html">Film</a></li><li><a class="navlink" href="web.html">Web</a></li><li><a class="navlink" href="festivals.html">Festivals</a></li><li><a class="navlink" href="index.html#contact">Contact</a></li></ul>
+  <button class="hamburger" id="hamburgerBtn" aria-label="Menu"><span></span><span></span><span></span></button>
+</nav>
+<div class="mobilemenu" id="mobileMenu">
+  <button class="closemenu" id="closeMenuBtn">✕</button>
+  <a href="index.html#about">About</a><a href="film.html">Film</a><a href="web.html">Web</a><a href="festivals.html">Festivals</a><a href="index.html#contact">Contact</a>
+</div>
+<div class="breadcrumb"><a href="index.html">Home</a> / <a href="film.html">Film Projects</a></div>
+
+<div class="pagehero">
+  <div class="eyebrow">02, FILM PROJECTS</div>
+  <h1>Film <em>Projects</em></h1>
+  <p class="lede">Besides being part of the production of these projects, I also handled the concept, design, and creation of the film posters. Click a project to dive into the full story.</p>
+</div>
+<section style="padding-top:0;">
+  <div class="card-grid cols-3">
+    <a class="hub-card" href="film-devils-field.html">
+      <div class="thumb"><img src="images/df-poster.jpg" alt="Devil's Field poster"></div>
+      <div class="body"><span class="tag" style="background:none;border:none;padding:0;color:var(--coral);">FICTION SHORT FILM</span><h3>Devil's Field</h3><p>Sixteen students, MBTI badges, and a social game with no rules.</p><div class="go">Explore the project →</div></div>
+    </a>
+    <a class="hub-card" href="film-trot-documentary.html">
+      <div class="thumb"><img src="images/trot-poster.jpg" alt="Trot Documentary poster"></div>
+      <div class="body"><span class="tag" style="background:none;border:none;padding:0;color:var(--coral);">DOCUMENTARY</span><h3>Trot Documentary</h3><p>Voices of yesterday, echoes of today: Korean Trot music explored.</p><div class="go">Explore the project →</div></div>
+    </a>
+    <a class="hub-card" href="film-vivre-la-mer.html">
+      <div class="thumb"><img src="images/geoje-poster.jpg" alt="Vivre de la Mer à Geoje poster"></div>
+      <div class="body"><span class="tag" style="background:none;border:none;padding:0;color:var(--coral);">DOCUMENTARY</span><h3>Vivre de la Mer à Geoje</h3><p>A portrait documentary on a fishing community in South Korea.</p><div class="go">Explore the project →</div></div>
+    </a>
+  </div>
+</section>
+<footer>CHAIMA JALLALI, PORTFOLIO 2026 · FRANCE × SOUTH KOREA</footer>
+
+
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lbClose">✕</button>
+  <button class="lightbox-nav prev" id="lbPrev">‹</button>
+  <img id="lbImg" src="" alt="">
+  <button class="lightbox-nav next" id="lbNext">›</button>
+  <div class="lightbox-caption" id="lbCaption"></div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>

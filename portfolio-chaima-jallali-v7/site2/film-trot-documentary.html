@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trot Documentary, Chaima Jallali</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Mono:wght@400;700&family=Work+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+<nav class="topnav">
+  <a class="brand" href="index.html">CHAIMA JALLALI</a>
+  <ul><li><a class="navlink" href="index.html#about">About</a></li><li><a class="navlink active" href="film.html">Film</a></li><li><a class="navlink" href="web.html">Web</a></li><li><a class="navlink" href="festivals.html">Festivals</a></li><li><a class="navlink" href="index.html#contact">Contact</a></li></ul>
+  <button class="hamburger" id="hamburgerBtn" aria-label="Menu"><span></span><span></span><span></span></button>
+</nav>
+<div class="mobilemenu" id="mobileMenu">
+  <button class="closemenu" id="closeMenuBtn">✕</button>
+  <a href="index.html#about">About</a><a href="film.html">Film</a><a href="web.html">Web</a><a href="festivals.html">Festivals</a><a href="index.html#contact">Contact</a>
+</div>
+<div class="breadcrumb"><a href="index.html">Home</a> / <a href="film.html">Film Projects</a> / Trot Documentary</div>
+
+<div class="pagehero" style="padding-bottom:0;">
+  <div class="eyebrow">DOCUMENTARY, VOICES OF YESTERDAY, ECHOES OF TODAY</div>
+  <h1>Trot <em>Documentary</em></h1>
+  <p class="lede">Korean Trot, a music genre popular nationwide throughout the 20th century, is now seen as old and reserved for older generations. This documentary explores older people's attachment to the genre by tracing its evolution: its roots, its transformations, and what it still means today for those who lived it.</p>
+</div>
+<section style="padding-top:40px;">
+  <div style="display:grid; grid-template-columns:.8fr 1.2fr; gap:50px; align-items:start; margin-bottom:70px;">
+    <div class="gallery-item" data-group="trotposter" style="cursor:zoom-in; border-radius:18px; overflow:hidden; border:1px solid var(--ink3);">
+      <img src="images/trot-poster.jpg" alt="Trot Documentary official poster">
+    </div>
+    <div>
+      <h3 style="font-family:var(--display); font-size:24px; margin-bottom:16px; color:var(--jade);">MY ROLE</h3>
+      <ul class="role-list" style="margin-bottom:26px;">
+        <li>Lead documentary research, writing, archives &amp; sourcing</li>
+        <li>Organization of shoots &amp; interviews</li>
+        <li>Liaison between the Korean team and interviewees</li>
+        <li>Subtitle translation Korean to French</li>
+        <li>Concept & Poster Design</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section-head"><span class="section-num">•</span><h2 class="section-title">Documentary <em>Website</em></h2></div>
+  <div class="embed-wrap" style="margin-bottom:70px;">
+    <div class="embed-toolbar">
+      <div class="dots"><span></span><span></span><span></span></div>
+      <span>trot.mastercmw.com</span>
+      <a href="https://trot.mastercmw.com/" target="_blank" rel="noopener">Open in new tab ↗</a>
+    </div>
+    <iframe src="https://trot.mastercmw.com/" height="720" loading="lazy" title="Trot Documentary site"></iframe>
+  </div>
+
+  <div class="section-head"><span class="section-num">•</span><h2 class="section-title">On <em>Location</em></h2></div>
+  <div class="gallery">
+    <div class="g-item gallery-item" data-group="trot"><img src="images/trot-bts.jpg" alt="Trot Documentary, Trot Academy, trot singers"></div>
+    <div class="g-item gallery-item" data-group="trot"><img src="images/disquaire.png" alt="Trot Documentary, music shop"></div>
+    <div class="g-item gallery-item" data-group="trot"><img src="images/trotacademy.png" alt="Trot Documentary, Trot Academy, teacher"></div>
+    <div class="g-item gallery-item" data-group="trot"><img src="images/fantrot.png" alt="Trot Documentary,fan of Lee Chanwon"></div>
+ 
+  </div>
+</section>
+
+<div class="project-nav">
+  <a href="film-devils-field.html"><span class="lbl">← PREVIOUS PROJECT</span><span class="title">Devil's Field</span></a>
+  <a class="next" href="film-vivre-la-mer.html"><span class="lbl">NEXT PROJECT →</span><span class="title">Vivre de la Mer à Geoje</span></a>
+</div>
+<footer>CHAIMA JALLALI, PORTFOLIO 2026 · FRANCE × SOUTH KOREA</footer>
+
+
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lbClose">✕</button>
+  <button class="lightbox-nav prev" id="lbPrev">‹</button>
+  <img id="lbImg" src="" alt="">
+  <button class="lightbox-nav next" id="lbNext">›</button>
+  <div class="lightbox-caption" id="lbCaption"></div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chaima Jallali, Portfolio 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Mono:wght@400;700&family=Work+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+<nav class="topnav">
+  <a class="brand" href="index.html">CHAIMA JALLALI</a>
+  <ul><li><a class="navlink active" href="index.html#about">About</a></li><li><a class="navlink" href="film.html">Film</a></li><li><a class="navlink" href="web.html">Web</a></li><li><a class="navlink" href="festivals.html">Festivals</a></li><li><a class="navlink" href="index.html#contact">Contact</a></li></ul>
+  <button class="hamburger" id="hamburgerBtn" aria-label="Menu"><span></span><span></span><span></span></button>
+</nav>
+<div class="mobilemenu" id="mobileMenu">
+  <button class="closemenu" id="closeMenuBtn">✕</button>
+  <a href="index.html#about">About</a><a href="film.html">Film</a><a href="web.html">Web</a><a href="festivals.html">Festivals</a><a href="index.html#contact">Contact</a>
+</div>
+
+
+<div class="pagehero" style="min-height:92vh; display:flex; flex-direction:column; justify-content:flex-end;
+  background:linear-gradient(180deg, rgba(18,20,43,.5) 0%, rgba(18,20,43,.78) 55%, var(--ink) 100%), url('images/hero-bg.jpg') center/cover; padding-bottom:70px;">
+  <div class="eyebrow">MEDIA &amp; DIGITAL STORYTELLER, FRANCE × SOUTH KOREA</div>
+  <h1 style="background:linear-gradient(100deg, var(--text) 20%, var(--gold) 55%, var(--coral) 90%); -webkit-background-clip:text; background-clip:text; color:transparent;">CHAIMA<br>JALLALI</h1>
+  <p class="lede">One foot in web culture, the other in cinema. Bridging visual creation, data analysis and hands-on field production.</p>
+  <div style="display:flex; gap:16px; margin-top:34px; flex-wrap:wrap;">
+    <a class="btn btn-solid" href="film.html">Explore the work →</a>
+    <a class="btn btn-outline" href="index.html#contact">Get in touch</a>
+  </div>
+</div>
+
+<div class="marquee-wrap" style="overflow:hidden; white-space:nowrap; border-top:1px solid var(--ink3); border-bottom:1px solid var(--ink3); background:linear-gradient(90deg, rgba(255,107,74,.08), rgba(47,191,159,.08)); padding:10px 0;">
+  <div style="display:inline-block; padding-left:100%; animation:scrollmq 26s linear infinite; font-family:var(--mono); font-size:14px; letter-spacing:3px; color:var(--muted);">
+    <b style="color:var(--gold);">STORYTELLING</b> &nbsp;·&nbsp; CINEMA &nbsp;·&nbsp; WEB DEVELOPMENT &nbsp;·&nbsp; <b style="color:var(--gold);">DATA ANALYSIS</b> &nbsp;·&nbsp; BRAND IDENTITY &nbsp;·&nbsp; SOUTH KOREA &nbsp;·&nbsp; <b style="color:var(--gold);">FILM FESTIVALS</b> &nbsp;·&nbsp; MAPPING &nbsp;·&nbsp; FRANCE &nbsp;·&nbsp;
+    <b style="color:var(--gold);">STORYTELLING</b> &nbsp;·&nbsp; CINEMA &nbsp;·&nbsp; WEB DEVELOPMENT &nbsp;·&nbsp; <b style="color:var(--gold);">DATA ANALYSIS</b> &nbsp;·&nbsp; BRAND IDENTITY &nbsp;·&nbsp; SOUTH KOREA &nbsp;·&nbsp; <b style="color:var(--gold);">FILM FESTIVALS</b> &nbsp;·&nbsp; MAPPING &nbsp;·&nbsp; FRANCE &nbsp;·&nbsp;
+  </div>
+</div>
+<style>@keyframes scrollmq{from{transform:translateX(0);}to{transform:translateX(-100%);}}</style>
+
+<section id="about">
+  <div class="section-head"><span class="section-num">01</span><h2 class="section-title">About <em>Me</em></h2></div>
+  <div class="about-grid-v2">
+    <div class="about-text-block">
+      <p>I'm a media &amp; digital storyteller and creative, with <strong>one foot in web culture and the other in cinema</strong>. Backed by a double Master's degree split between France and South Korea, I bridge the gap between visual creation, data analysis, and hands-on field production.</p>
+      <p>Digital marketing and design fuel me in equal measure. I love pairing creativity with performance, whether that's analyzing campaign KPIs, shaping a brand identity and art direction (A/B testing visuals, branding projects like <strong>MadAtlas</strong>, or photography), or digging into data. I'm currently preparing for my <strong>Google Analytics certification</strong> to push my data-driven mindset even further.</p>
+      <p>When it comes to web development and mapping, I enjoy bringing ideas to life by building concrete tools from real data, like <strong>AudioMap</strong> or <strong>WindMap</strong>, interactive mapping projects I developed.</p>
+      <p>My one-year immersion in South Korea, backed by a Bachelor's degree in Korean, was a defining chapter in my journey. It gave me invaluable ground-level experience on human, cultural, and linguistic levels. Alongside that, I've built a solid background in film, working on documentary and short film sets, as well as coordinating operations for international film festivals.</p>
+      <p>Currently based in <strong>France</strong> and fully open to relocating globally, I'm ready to join ambitious teams and projects in France or internationally.</p>
+
+      <div class="about-tags">
+        <span class="tag">FR / EN / KOR</span><span class="tag">Film Production</span><span class="tag">Web Development</span>
+        <span class="tag">Data &amp; Analytics</span><span class="tag">Brand &amp; Art Direction</span>
+      </div>
+      <div class="about-photo-strip">
+        <figure class="gallery-item" data-group="about2"><img src="images/about-camera.jpg" alt="On set, operating the camera"><figcaption>ON SET, CAMERA OPERATOR</figcaption></figure>
+        <figure class="gallery-item" data-group="about2"><img src="images/about-hero-alt.jpg" alt="Chaïma Jallali, on set of Devil's Field, South Korea 2025"><figcaption>DEVIL'S FIELD, ON SET, 2025</figcaption></figure>
+      </div>
+    </div>
+
+    <figure class="about-photo-block gallery-item" data-group="about">
+      <img src="images/about-modele.jpg" alt="Chaïma Jallali, portrait, Dong-Eui University Busan">
+    </figure>
+
+    <div class="about-card about-snapshot-block">
+      <h3>SNAPSHOT</h3>
+      <div class="stat-row"><span>BASE</span><span>France · open to relocate</span></div>
+      <div class="stat-row"><span>LANGUAGES</span><span>French · English · Korean</span></div>
+      <div class="stat-row"><span>EDUCATION</span><span>Double Master's, France &amp; South Korea</span></div>
+      <div class="stat-row"><span>FIELDS</span><span>Film · Web · Data · Branding</span></div>
+      <div class="stat-row"><span>CURRENTLY</span><span>Google Analytics certification</span></div>
+      <div class="stat-row"><span>SIGNATURE PROJECTS</span><span>AudioMap · WindMap · MadAtlas</span></div>
+    </div>
+  </div>
+
+  <div class="about-card" style="margin-top:30px;">
+    <h3>SOFTWARE &amp; TOOLS</h3>
+    <div class="tools-grid">
+      <div class="tool-tile"><div class="icon-chip"><img src="images/tools/excel.svg" alt="Excel"></div><span>Excel</span></div>
+      <div class="tool-tile"><div class="icon-chip"><img src="images/tools/word.svg" alt="Word"></div><span>Word</span></div>
+      <div class="tool-tile"><div class="icon-chip"><img src="images/tools/powerpoint.svg" alt="PowerPoint"></div><span>PowerPoint</span></div>
+      <div class="tool-tile"><div class="icon-chip"><img src="images/tools/notion.svg" alt="Notion"></div><span>Notion</span></div>
+      <div class="tool-tile"><div class="icon-chip"><img src="images/tools/illustrator.svg" alt="Illustrator"></div><span>Illustrator</span></div>
+      <div class="tool-tile"><div class="icon-chip"><img src="images/tools/indesign.svg" alt="InDesign"></div><span>InDesign</span></div>
+      <div class="tool-tile"><div class="icon-chip"><img src="images/tools/photoshop.svg" alt="Photoshop"></div><span>Photoshop</span></div>
+      <div class="tool-tile"><div class="icon-chip"><img src="images/tools/premierepro.svg" alt="Premiere Pro"></div><span>Premiere Pro</span></div>
+      <div class="tool-tile"><div class="icon-chip"><img src="images/tools/canva.svg" alt="Canva"></div><span>Canva</span></div>
+      <div class="tool-tile"><div class="icon-chip"><img src="images/tools/davinciresolve.svg" alt="DaVinci Resolve"></div><span>DaVinci Resolve</span></div>
+      <div class="tool-tile"><div class="icon-chip"><img src="images/tools/gimp.svg" alt="GIMP"></div><span>GIMP</span></div>
+      <div class="tool-tile"><div class="icon-chip"><img src="images/tools/googleanalytics.svg" alt="Google Analytics"></div><span>Google Analytics</span></div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:20px;">
+  <div class="section-head"><span class="section-num">→</span><h2 class="section-title">Explore the <em>Portfolio</em></h2></div>
+  <div class="card-grid cols-3">
+    <a class="hub-card" href="film.html">
+      <div class="thumb"><img src="images/df-poster.jpg" alt="Film projects"></div>
+      <div class="body"><span class="tag" style="background:none;border:none;padding:0;color:var(--coral);">02, FILM</span><h3>Film Projects</h3><p>Fiction &amp; documentary work, from concept to final poster.</p><div class="go">Discover →</div></div>
+    </a>
+    <a class="hub-card" href="web.html">
+      <div class="thumb logo-cover"><img src="images/cover-madatlas-poster.jpg" alt="Web projects" style="width:100%;height:100%;object-fit:cover;"></div>
+      <div class="body"><span class="tag" style="background:none;border:none;padding:0;color:var(--coral);">03, WEB</span><h3>Web Projects</h3><p>Interactive maps, branding and app design: AudioGéoMap, WindMap, MadAtlas.</p><div class="go">Discover →</div></div>
+    </a>
+    <a class="hub-card" href="festivals.html">
+      <div class="thumb"><img src="images/biff1-gh.jpg" alt="Festivals"></div>
+      <div class="body"><span class="tag" style="background:none;border:none;padding:0;color:var(--coral);">04, FESTIVALS</span><h3>Festivals</h3><p>On the ground at BISFF, BIFF and the UNESCO UCCN workshop.</p><div class="go">Discover →</div></div>
+    </a>
+  </div>
+</section>
+
+<section id="contact" style="text-align:center; padding-bottom:120px;">
+  <div class="section-head" style="justify-content:center;"><span class="section-num">05</span><h2 class="section-title">Contact <em>Me</em></h2></div>
+  <p style="color:var(--muted); max-width:520px; margin:0 auto 40px auto; font-size:16px; line-height:1.7;">Open to ambitious teams and projects in France or internationally, in film, web, or the space in between.</p>
+  <div style="display:flex; gap:20px; justify-content:center; flex-wrap:wrap;">
+    <a class="btn btn-solid" href="mailto:chaimajallali@gmail.com">✉ chaimajallali@gmail.com</a>
+    <a class="btn btn-outline" href="tel:+33680026744">☎ +33 6 80 02 67 44</a>
+  </div>
+</section>
+
+<footer>CHAIMA JALLALI, PORTFOLIO 2026 · FRANCE × SOUTH KOREA</footer>
+
+
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lbClose">✕</button>
+  <button class="lightbox-nav prev" id="lbPrev">‹</button>
+  <img id="lbImg" src="" alt="">
+  <button class="lightbox-nav next" id="lbNext">›</button>
+  <div class="lightbox-caption" id="lbCaption"></div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
