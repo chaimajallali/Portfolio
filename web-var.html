@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Monitoring Projects, Chaima Jallali</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Mono:wght@400;700&family=Work+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+<nav class="topnav">
+  <a class="brand" href="index.html">CHAIMA JALLALI</a>
+  <ul><li><a class="navlink" href="index.html#about">About</a></li><li><a class="navlink" href="film.html">Film</a></li><li><a class="navlink active" href="web.html">Web</a></li><li><a class="navlink" href="festivals.html">Festivals</a></li><li><a class="navlink" href="index.html#contact">Contact</a></li></ul>
+  <button class="hamburger" id="hamburgerBtn" aria-label="Menu"><span></span><span></span><span></span></button>
+</nav>
+<div class="mobilemenu" id="mobileMenu">
+  <button class="closemenu" id="closeMenuBtn">✕</button>
+  <a href="index.html#about">About</a><a href="film.html">Film</a><a href="web.html">Web</a><a href="festivals.html">Festivals</a><a href="index.html#contact">Contact</a>
+</div>
+<div class="breadcrumb"><a href="index.html">Home</a> / <a href="web.html">Web Projects</a> / Monitoring Projects</div>
+
+<div class="pagehero" style="padding-bottom:0;">
+  <div class="eyebrow">MONITORING PROJECTS</div>
+  <h1>Monitoring <em>Projects</em></h1>
+  <p class="lede">Through my monitoring and editorial writing projects, I explore a wide range of subjects, from the role of refereeing in football to the world of graffiti. This work draws on my research, analysis and synthesis skills to make subjects accessible and engaging. This selection presents the projects I have been able to lay out in carefully designed PDF documents; it does not reflect the full scope of my writing work.</p>
+</div>
+<section style="padding-top:20px;">
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 30px;">
+    
+    <!-- First PDF -->
+    <div style="display: flex; flex-direction: column; align-items: center; gap: 12px; width: 100%;">
+      <embed src="pdf/var1.pdf" type="application/pdf" width="100%" height="800px" style="border-radius: 8px; border: 1px solid rgba(255,255,255,0.1);" />
+      <a href="pdf/var1.pdf" target="_blank" style="padding: 10px 18px; background: var(--coral, #ff5a5f); color: #fff; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 14px;">
+        🔍 Open / Enlarge PDF 1
+      </a>
+    </div>
+
+    <!-- Second PDF -->
+    <div style="display: flex; flex-direction: column; align-items: center; gap: 12px; width: 100%;">
+      <embed src="pdf/var2.pdf" type="application/pdf" width="100%" height="800px" style="border-radius: 8px; border: 1px solid rgba(255,255,255,0.1);" />
+      <a href="pdf/var2.pdf" target="_blank" style="padding: 10px 18px; background: var(--coral, #ff5a5f); color: #fff; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 14px;">
+        🔍 Open / Enlarge PDF 2
+      </a>
+    </div>
+
+    <!-- Third PDF -->
+    <div style="display: flex; flex-direction: column; align-items: center; gap: 12px; width: 100%;">
+      <embed src="pdf/graffiti.pdf" type="application/pdf" width="100%" height="800px" style="border-radius: 8px; border: 1px solid rgba(255,255,255,0.1);" />
+      <a href="pdf/graffiti.pdf" target="_blank" style="padding: 10px 18px; background: var(--coral, #ff5a5f); color: #fff; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 14px;">
+        🔍 Open / Enlarge PDF 2
+      </a>
+    </div>
+
+  </div>
+</section>
+<footer>CHAIMA JALLALI, PORTFOLIO 2026 · FRANCE × SOUTH KOREA</footer>
+
+
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lbClose">✕</button>
+  <button class="lightbox-nav prev" id="lbPrev">‹</button>
+  <img id="lbImg" src="" alt="">
+  <button class="lightbox-nav next" id="lbNext">›</button>
+  <div class="lightbox-caption" id="lbCaption"></div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>

@@ -25,23 +25,53 @@
 
 <div class="pagehero">
   <div class="eyebrow">03, WEB PROJECTS</div>
-  <h1>Web <em>Projects</em></h1>
-  <p class="lede">Interactive maps, brand identity and mobile app design, from wireframe to working product.</p>
+  <h1>Web <em>projects</em></h1>
+  <p class="lede">Social media content statistics, interactive maps, monitoring projects, brand identity and mobile app design, from wireframe to working product.</p>
 </div>
+
+<style>
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px;
+  }
+  .card-grid .hub-card h3 { font-size: 1.05rem; }
+  .card-grid .hub-card p { font-size: 0.85rem; }
+
+  @media (max-width: 1200px) { .card-grid { grid-template-columns: repeat(3, 1fr); } }
+  @media (max-width: 800px)  { .card-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 500px)  { .card-grid { grid-template-columns: 1fr; } }
+</style>
+
 <section style="padding-top:0;">
-  <div class="card-grid cols-3">
+  <div class="card-grid">
+
     <a class="hub-card" href="web-audiogeomap.html">
       <div class="thumb logo-cover"><img src="images/cover-audiogeomap.jpg" alt="AudioGéoMap logo" style="width:100%;height:100%;object-fit:cover;"></div>
-      <div class="body"><span class="tag" style="background:none;border:none;padding:0;color:var(--coral);">INTERACTIVE MAP · REAL CLIENT</span><h3>AudioGéoMap</h3><p>Podcasts by Geography students, mapped with Leaflet.js.</p><div class="go">See the process →</div></div>
+      <div class="body"><span class="tag" style="background:none;border:none;padding:0;color:var(--coral);">INTERACTIVE MAP · REAL CLIENT</span><h3>AudioGéoMap</h3><p>Geography students' podcasts, mapped with Leaflet.js.</p><div class="go">View project →</div></div>
     </a>
+
     <a class="hub-card" href="web-windmap.html">
       <div class="thumb logo-cover"><img src="images/cover-windmap.jpg" alt="WindMap logo" style="width:100%;height:100%;object-fit:cover;"></div>
-      <div class="body"><span class="tag" style="background:none;border:none;padding:0;color:var(--coral);">MOBILE APP · STUDENT PROJECT</span><h3>WindMap</h3><p>A weather &amp; wind-alert app concept, from wireframe to prototype.</p><div class="go">See the process →</div></div>
+      <div class="body"><span class="tag" style="background:none;border:none;padding:0;color:var(--coral);">MOBILE APP · STUDENT PROJECT</span><h3>WindMap</h3><p>A weather &amp; wind alert app concept, from wireframe to prototype.</p><div class="go">View project →</div></div>
     </a>
+
     <a class="hub-card" href="web-madatlas.html">
       <div class="thumb logo-cover"><img src="images/cover-madatlas.jpg" alt="MadAtlas logo" style="width:100%;height:100%;object-fit:cover;"></div>
-      <div class="body"><span class="tag" style="background:none;border:none;padding:0;color:var(--coral);">BRAND IDENTITY · STUDENT PROJECT</span><h3>MadAtlas</h3><p>Visual identity design, lemur + lettering, born from research.</p><div class="go">See the process →</div></div>
+      <div class="body"><span class="tag" style="background:none;border:none;padding:0;color:var(--coral);">BRAND IDENTITY · STUDENT PROJECT</span><h3>MadAtlas</h3><p>Visual identity design, lemur + lettering, born from research.</p><div class="go">View project →</div></div>
     </a>
+
+    <a class="hub-card" href="web-var.html">
+      <div class="thumb logo-cover"><img src="images/varimage.jpg" alt="Var logo" style="width:100%;height:100%;object-fit:cover;"></div>
+      <div class="body"><span class="tag" style="background:none;border:none;padding:0;color:var(--coral);">MONITORING PROJECTS · EDITORIAL WRITING</span><h3>Monitoring Projects</h3><p>Editorialization</p><div class="go">View projects →</div></div>
+    </a>
+
+    <!-- NEW CARD -->
+    <a class="hub-card" href="web-socialmedia.html">
+      <div class="thumb logo-cover"><img src="images/cover-analyses.jpg" alt="Social media content analyses" style="width:100%;height:100%;object-fit:cover;"></div>
+      <div class="body"><span class="tag" style="background:none;border:none;padding:0;color:var(--coral);">SOCIAL MEDIA · CONTENT STATISTICS</span><h3>Content statistics</h3><p>TikTok and Reels content statistics, performance and lessons learned.</p><div class="go">View analyses →</div></div>
+    </a>
+
   </div>
 </section>
 <footer>CHAIMA JALLALI, PORTFOLIO 2026 · FRANCE × SOUTH KOREA</footer>
